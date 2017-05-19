@@ -1,0 +1,21 @@
+{
+  "name": "mqttbroker",
+  "version": "1.0.0",
+  "description": "consumes data through websocket and sends data out through mqtt (tcp)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.6.2",
+    "stompjs": "^2.3.3",
+    "ws": "^2.3.1"
+  }
+}

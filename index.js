@@ -1,7 +1,6 @@
 // --- TODO ---
 // Error handling
 // validate/gracefully handle error states/packets
-// handle LWT ( or whatever the native app sends onClose)
 
 const WebSocket = require('ws');
 const Stomp = require('stompjs');
